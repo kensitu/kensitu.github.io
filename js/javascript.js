@@ -26,7 +26,6 @@ $(document).ready(function(){
     hairsegment = new Segment(hair);
 
   $("#intro").addClass('hidden');
-  $('#branch').css('top', '5vw');
   $('#branch').addClass('hidden');
 
   $('.nav').addClass('hidden');
@@ -69,7 +68,6 @@ $(document).ready(function(){
       function(){
         $('#branch').removeClass('hidden');
         $('#branch').addClass('visible');
-        $('#branch').css('top', '-3vw');
         $('#branch').attr('data-parallax','{"y" : -100}');
       });
 
