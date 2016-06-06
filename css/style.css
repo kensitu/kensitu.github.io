@@ -2,7 +2,7 @@
 /* General */
 
 html {
-    background-color: white;
+    background-color: #f1efe5;
 }
 
 .hidden {
@@ -29,6 +29,7 @@ hr {
 
 .nav {
     margin-top: 3%;
+    background-color: transparent;
 }
 
 nav .container {
