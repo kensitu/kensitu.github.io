@@ -59,7 +59,7 @@ a.nav-item.is-tab {
 }
 
 #name {
-    font-family: 'Rock Salt', 'Dancing Script', 'Helvetica Neue', sans-serif;
+    font-family: 'Rock Salt', 'Helvetica Neue', sans-serif;
     font-size: 5em;
     color: black;
     line-height: inherit;
@@ -78,6 +78,18 @@ a.nav-item.is-tab {
     position: relative;
     top: -3vw;
     z-index: 1;
+}
+
+i.fa.fa-angle-double-down {
+    font-size: 3em;
+    animation: bounce 2s infinite;
+}
+
+@keyframes bounce {
+    0% {transform: translateY(0px);}
+    50% {transform: translateY(20px);}
+    100% {transform: translateY(0px);}
+    
 }
 
 /*---------------------------------------*/
