@@ -1,5 +1,19 @@
 $(document).ready(function(){ 
 
+  // Add smooth scrolling to anchor links
+  $('a[href^="#"]').on('click',function (e) {
+      e.preventDefault();
+
+      var target = this.hash;
+      var $target = $(target);
+
+      $('html, body').stop().animate({
+          'scrollTop': $target.offset().top
+      }, 900, 'swing', function () {
+          window.location.hash = target;
+      });
+  });
+
   // Setting up the paths to work with the Segment library
   var circle = document.getElementById("circle"),
   circlesegment = new Segment(circle);

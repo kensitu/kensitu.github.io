@@ -22,13 +22,33 @@ hr {
     height: 4px;
     border: none;
     background-color: #df4e4e;
+}
+
+.section {
+    background-color: transparent;
+}
+
+.title {
+    color: #df4e4e;
+    font-size: 36px;
+}
+
+.subtitle {
 
 }
+
+
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+/*                                  Index                                     */
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+
+
 /*----------------------------------------*/
 /* Navbar */
 
 .nav {
     margin-top: 3%;
+    margin-bottom: 8%;
     background-color: transparent;
 }
 
@@ -48,7 +68,6 @@ a.nav-item.is-tab {
 /* Header */
 
 #kenvector {
-    margin-top: 8%;
     width: 12em;
     height: auto;
 }
@@ -63,6 +82,7 @@ a.nav-item.is-tab {
     font-size: 5em;
     color: black;
     line-height: inherit;
+    margin-bottom: 20px;
 }
 
 #role {
@@ -78,6 +98,12 @@ a.nav-item.is-tab {
     position: relative;
     top: -3vw;
     z-index: 1;
+}
+
+#branch-top {
+    width: 62%;
+    position: absolute;
+    top: -3vw;
 }
 
 i.fa.fa-angle-double-down {
@@ -105,6 +131,9 @@ i.fa.fa-angle-double-down {
     overflow: hidden;
     text-align: center;
     margin-bottom: 8%;
+    color: #222324;
+    font-size: 1.2em;
+    font-weight: 300;
 
 }
 
@@ -226,4 +255,122 @@ figcaption > a {
 .footer p {
     font-size: .9em;
     font-weight: 100;
+}
+
+
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+/*                                  Works                                     */
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+
+.heading {
+    text-transform: none;
+    padding-top: 10%;
+    margin: 0;
+}
+
+.button {
+    margin: 5%;
+}
+
+.main-body {
+    background-color: #df4e4e;
+    overflow: hidden;
+}
+
+.go-left {
+    float: left;
+}
+
+.go-right {
+    float: right;
+}
+
+.subheading {
+    margin: 10% 0;
+    color: white;
+    text-align: center;
+    font-size: 18px;
+    text-transform: uppercase;
+}
+/* --------------------------------------*/
+/* Pants vs Kosbie */
+
+#insights {
+    margin-top: -5vh;
+}
+
+#laptop {
+    width: 80%;
+}
+
+#pvkscreen {
+    width: 60%;
+    position: absolute;
+    left: 20%;
+    top: 11%;
+}
+
+.laptop-container {
+    position: relative;
+}
+
+
+/*--------------------------------------*/
+/* Baymax */
+
+
+#skele {
+
+    -webkit-filter: drop-shadow(0px -4px 4px rgba(0,0,0,0.5));
+    filter: url(#drop-shadow);
+    -ms-filter: "progid:DXImageTransform.Microsoft.Dropshadow(OffX=0, OffY=-4, Color='#444')";
+    filter: "progid:DXImageTransform.Microsoft.Dropshadow(OffX=0, OffY=-4, Color='#444')";
+
+    position: relative;
+    top: 4px;
+}
+
+#baymax-desc {
+    padding-bottom: 0;
+}
+
+/*--------------------------------------*/
+/* Designs */
+
+.gallery {
+  width: 100%;
+  text-align: center;
+}
+.gallery img {
+  max-width: 100%;
+  box-shadow: 2px 2px 4px 0px rgba(0,0,0,0.50);
+}
+.gallery figure {
+  margin: 15px;
+  display: inline-block;
+  position: relative;
+}
+
+.square-fig {
+    width: 40%;
+}
+
+#ASA-main-logo {
+    margin: 40px 0;
+}
+
+.row {
+    display: block;
+}
+
+#award-fig{
+    width: 26%;
+}
+
+#shirts-fig {
+    width: 53%;
+}
+
+.banner-fig {
+    margin: 0;
 }
