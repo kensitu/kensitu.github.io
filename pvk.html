@@ -8,8 +8,13 @@
     <link href='https://fonts.googleapis.com/css?family=Lato:400,300' rel='stylesheet' type='text/css'>
     <link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css'>
 
+    <script src='http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script> 
+
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/animsition/4.0.2/css/animsition.min.css">
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/animsition/4.0.2/js/animsition.min.js"></script>
+    <script type="text/javascript" src="js/pagefade.js"></script>
 </head>
-<body>
+<body class="animsition">
 
     <!-- Header start -->
     <div class="header">
@@ -21,9 +26,9 @@
             <div class="container">
                 <div class="nav-right">
                     <a class="nav-item is-tab" href="index.html">HOME</a>
-                    <a class="nav-item is-tab" href="index.html#portfolio">WORKS</a>
-                    <a class="nav-item is-tab">DESIGNS</a>
-                    <a class="nav-item is-tab">ABOUT</a>
+                    <a class="nav-item is-tab" href="works.html">WORKS</a>
+                    <a class="nav-item is-tab" href="designs.html">DESIGNS</a>
+                    <a class="nav-item is-tab" href="about.html">ABOUT</a>
                 </div>
             </div>
         </nav>
@@ -31,17 +36,19 @@
     <!-- Header end -->
 
 
-    <div class="section has-text-centered">
+    <div class="section has-text-centered section-intersect">
         <div class="container">
             <div class="heading">
                 <h1 class="title is-spaced">PANTS VS. KOSBIE</h1>    
                 <h2 class="subtitle"> An easy-to-learn, fast-paced desktop game.<br>First place winner of the 15-112 Showcase.</h2>
             </div>
 
-            <a class="button is-info" href="http://www.andrew.cmu.edu/user/ksitu/pvk" target="_blank">
-                OFFICIAL WEBSITE&nbsp
-                <i class="fa fa-arrow-circle-right" aria-hidden="true"></i>
-            </a>
+            <div class="button-container">
+                <a class="button is-info" href="http://www.andrew.cmu.edu/user/ksitu/pvk" target="_blank">
+                    OFFICIAL WEBSITE&nbsp
+                    <i class="fa fa-arrow-circle-right" aria-hidden="true"></i>
+                </a>
+            </div>
 
             <div class="laptop-container">
                 <img src="images/laptop.png" id="laptop">
@@ -50,8 +57,12 @@
         </div>
     </div>
 
-    <div class="section main-body" id="insights">
-            
+    <div class="section is-red" id="insights">
+        <div class="container has-text-centered">
+            <p>
+                Description to be added by 9/2/16.
+            </p>
+        </div>
     </div>
 </body>
 </html>

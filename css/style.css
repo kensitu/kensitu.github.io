@@ -14,6 +14,10 @@ html {
     transition: opacity .6s ease-in-out, top .6s ease-in-out; 
 }
 
+.transparent {
+    opacity: .6;
+}
+
 .is-spaced {
     letter-spacing: 5px;
 }
@@ -26,6 +30,7 @@ hr {
 
 .section {
     background-color: transparent;
+    padding: 3%;
 }
 
 .title {
@@ -37,9 +42,9 @@ hr {
 
 }
 
+
 body {
     -webkit-text-size-adjust: 100%;
-
 }
 
 /* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
@@ -272,13 +277,8 @@ figcaption > a {
     margin: 0;
 }
 
-.button {
+.button-container {
     margin: 5%;
-}
-
-.main-body {
-    background-color: #df4e4e;
-    overflow: hidden;
 }
 
 .go-left {
@@ -296,11 +296,25 @@ figcaption > a {
     font-size: 18px;
     text-transform: uppercase;
 }
+
+.is-red {
+    background-color: #df4e4e;
+    color: white;
+    /*overflow: hidden;*/
+}
+
+.footer.is-red a, .footer.is-red a:visited{
+    color: white;
+}
+
+.section-intersect {
+    padding-bottom: 0;
+}
 /* --------------------------------------*/
 /* Pants vs Kosbie */
 
 #insights {
-    margin-top: -5vh;
+    margin-top: -4px;
 }
 
 #laptop {
@@ -332,10 +346,6 @@ figcaption > a {
 
     position: relative;
     top: 4px;
-}
-
-#baymax-desc {
-    padding-bottom: 0;
 }
 
 /*--------------------------------------*/
@@ -377,4 +387,72 @@ figcaption > a {
 
 .banner-fig {
     margin: 0;
+}
+
+#back-to-top {
+    -webkit-filter: drop-shadow(0px 4px 4px rgba(0,0,0,0.5));
+    filter: url(#drop-shadow);
+    -ms-filter: "progid:DXImageTransform.Microsoft.Dropshadow(OffX=0, OffY=4, Color='#444')";
+    filter: "progid:DXImageTransform.Microsoft.Dropshadow(OffX=0, OffY=4, Color='#444')";
+    color: white;
+    position: fixed;
+    bottom: 5%;
+    right: 5%;
+    transition: opacity .6s ease-in-out, top .6s ease-in-out; 
+}
+
+#back-to-top:hover {
+    transition: opacity 0s ease-in-out, top 0s ease-in-out; 
+    opacity: 1;
+}
+
+/*-------------------------------------*/
+/* About */
+
+.ken-box {
+    position: absolute;
+    width: 100%;
+    bottom: 100%;
+}
+
+
+#ken-cutout {
+    max-width: 35%;
+    position: relative;
+    right: -65%;
+    top: 29vw;
+    /*right: 0%;*/
+}
+
+.solo-heading {
+    padding: 20vh 0;
+}
+
+@media screen and (min-width: 1180px) {
+    #ken-cutout {
+        top: 22em;
+        max-width: 30%;
+    }
+
+    #about-section {
+        padding: 40px;
+    }
+}
+
+#about-content {
+    padding: 35% 5%;
+}
+
+#about-content i {
+    margin: 40px;
+    color: white;
+}
+
+
+/*-------------------------------*/
+/* EDITOR */
+
+#editor-img {
+    padding: 5% 5% 0 5%;
+    margin-bottom: -4px
 }
