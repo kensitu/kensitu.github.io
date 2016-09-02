@@ -47,6 +47,18 @@ body {
     -webkit-text-size-adjust: 100%;
 }
 
+.reflection {
+    padding: 5%;
+}
+
+.left-reflection-text {
+    text-align: right;
+    text-transform: uppercase;
+}
+
+.right-reflection-text {
+
+}
 /* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
 /*                                  Index                                     */
 /* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
