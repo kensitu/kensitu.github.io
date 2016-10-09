@@ -1,14 +1,15 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Huggable Robot Baymax</title>
+    <title>Connec</title>
     <link rel="stylesheet" href="css/bulma.css">
     <link rel="stylesheet" href="css/style.css">
 
     <link href='https://fonts.googleapis.com/css?family=Lato:400,300' rel='stylesheet' type='text/css'>
     <link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css'>
 
-    <script src='http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
+    <script src='http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script> 
+
     <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/animsition/4.0.2/css/animsition.min.css">
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/animsition/4.0.2/js/animsition.min.js"></script>
     <script type="text/javascript" src="js/pagefade.js"></script>
@@ -35,63 +36,81 @@
     <!-- Header end -->
 
 
-    <!-- Introduction start -->
-
     <div class="section has-text-centered section-intersect">
         <div class="container">
             <div class="heading">
-                <h1 class="title is-spaced">BAYMAX</h1>    
-                <h2 class="subtitle">The life-sized huggable robot.</h2>
+                <h1 class="title is-spaced">CONNEC</h1>    
+                <h2 class="subtitle">UX/UI Design for HackMIT Project</h2>
             </div>
 
             <div class="button-container">
-                <a class="button is-info" href="http://kensitu.github.io/hug-baymax/" target="_blank">
-                    OFFICIAL WEBSITE&nbsp
+                <a class="button is-info" href="http://devpost.com/software/connec" target="_blank">
+                    LEARN MORE&nbsp
                     <i class="fa fa-arrow-circle-right" aria-hidden="true"></i>
                 </a>
             </div>
 
-            <img src="images/baymax-skeleton.png" id="skele">
+            <div class="laptop-container">
+                <img src="images/laptop.png" id="laptop">
+                <video id="pvkscreen" muted autoplay loop src="images/connec.mov"></video>
+            </div>
         </div>
     </div>
-
-    <!-- Introduction end -->
-
-
-    <!-- Insights start -->
 
     <div class="section is-red" id="insights">
-        <div class="reflection">
+        <div class="reflection container">
+
+            <!-- Problem -->
             <div class="columns">
               <div class="column is-2">
                 <p class="left-reflection-text">
-                  Description
+                  Problem
                 </p>
               </div>
 
               <div class="column">
                 <p class="right-reflection-text">
-                     Named and inspired after the robot protagonist in the immensely popular film <i>Big Hero 6</i>, Huggable Robot Baymax is a soft-bodied robot built for the course Humanoids during the Spring of 2016. 
+                    College career fairs can easily become overcrowded and unorganized despite all the efforts of the organizers. When half a university is crammed into a gymnasium, naturally, all order is thrown out the window. Lines to speak to recruiters can get unpredictably long, making it difficult for students to effectively plan their career fair agenda. At the same time, it is a nightmare for a recruiter to see a queue with no end in sight. 
+                    <br><br>
+                    My 2 teammates and I choose to tackle this problem in a 24 hour timeframe for submission to HackMIT.
                 </p>
               </div>
             </div>
 
+            <!-- Description -->
             <div class="columns">
               <div class="column is-2">
                 <p class="left-reflection-text">
-                  The Inspiration
+                  Solution
                 </p>
               </div>
-
               <div class="column">
                 <p class="right-reflection-text">
-                     The robot in Big Hero 6 stood out to me and my team because it represented an unconventional idea of what it meant to be a robot. Ask anyone to think of a robot, and they are probably imagining something that is rigid and mechanical. Meanwhile, Baymax from Big Hero 6 is soft, squishy, and huggable. We made it our challenge to see if we could build such a soft-bodied robot.
+                    Connec is a web application that helps facilitate career fairs and eliminate overcrowding by automating the queuing system.
+                    Students can electronically join the queues of companies they're interested in (up to 5 at a time) and track their positions in real-time. When they are close to the front of a queue, a reminder is text-messaged to them.
+                    <br><br>
+                    On the other end, recruiters can make company queues for students to see and join. During recruitment, they are presented with a screen that tells them the student's name and the length of the queue. When they are done speaking with a student, they can update the queue with a simple click of a button.
                 </p>
               </div>
             </div>
-            
+
+            <!-- Role -->
+            <div class="columns">
+              <div class="column is-2">
+                <p class="left-reflection-text">
+                  My Role
+                </p>
+              </div>
+              <div class="column">
+                <p class="right-reflection-text">
+                    I conducted research on similar services like helpdesk queues. Using that information, I created a list of essential features and organized them into user flow diagrams. Then, I drew out wireframes and digitalized prototypes in Sketch and InVision. Finally I coded the frontend of the web-app and helped to present to the HackMIT panelists.
+                </p>
+              </div>
+            </div>
+
         </div>
     </div>
+
 
     <!-- More Works -->
     <div class="section">
@@ -99,11 +118,11 @@
             <div class="columns is-multiline">
                 <div class="column is-half">
                     <div class="grid">
-                        <a href="connec.html">
+                        <a href="pvk.html">
                             <figure class="effect-goliath">
-                                <img src="images/connec-banner.jpg" alt="Connec"/>
+                                <img src="images/pvk-banner.png" alt="pvk-banner"/>
                                 <figcaption>
-                                    <p class="is-spaced">Connec (Web App UI) >></p>
+                                    <p class="is-spaced">Pants vs. Kosbie (Desktop Game) >></p>
                                 </figcaption>           
                             </figure>
                         </a>
@@ -112,11 +131,11 @@
 
                 <div class="column is-half">
                     <div class="grid">
-                        <a href="pvk.html">
+                        <a href="baymax.html">
                             <figure class="effect-goliath">
-                                <img src="images/pvk-banner.png" alt="pvk-banner"/>
+                                <img src="images/baymax-banner.png" alt="baymax-banner"/>
                                 <figcaption>
-                                    <p class="is-spaced">Pants vs. Kosbie (Desktop Game) >></p>
+                                    <p class="is-spaced">Baymax (Soft-bodied robotics) >></p>
                                 </figcaption>           
                             </figure>
                         </a>

@@ -23,9 +23,28 @@ html {
 }
 
 hr {
-    height: 4px;
+/*    height: 4px;
     border: none;
-    background-color: #df4e4e;
+    background-color: #df4e4e;*/
+}
+
+hr.divider {
+    border-top: 2px solid #df4e4e;
+    margin-bottom: 8%;
+    text-align: center;
+}
+hr.divider:after {
+    content: 'SELECTED WORKS';
+    display: inline-block;
+    position: relative;
+    top: -15px;
+    padding: 0 10px;
+    background: #f1efe5;
+
+    font-size: 1.2em;
+    font-weight: 300;
+    letter-spacing: 5px;
+    padding: 0 5%;
 }
 
 .section {
@@ -54,6 +73,7 @@ body {
 .left-reflection-text {
     text-align: right;
     text-transform: uppercase;
+    font-weight: bold;
 }
 
 .right-reflection-text {
@@ -147,23 +167,12 @@ i.fa.fa-angle-double-down {
     padding-top: 0;
 }
 
-#selected-works-text {
-    position: relative;
-    overflow: hidden;
-    text-align: center;
-    margin-bottom: 8%;
-    color: #222324;
-    font-size: 1.2em;
-    font-weight: 300;
-
-}
-
 #selected-works-text:before,
 #selected-works-text:after {
     display: inline-block;
     content: "";
     height: 2px;
-    background: #D05454;
+    background: #df4e4e;
     position: absolute;
     width: 100%;
     top: 50%;
@@ -248,8 +257,10 @@ figure.effect-goliath:hover p {
 .grid figure {
     overflow: hidden;
     position: relative;
-    margin: 20px 0 0 0;
+}
 
+#portfolio .grid figure {
+    margin: 20px 0 0 0;
 }
 
 figcaption {
@@ -286,7 +297,7 @@ figcaption > a {
 .heading {
     text-transform: none;
     padding-top: 10%;
-    margin: 0;
+    margin-bottom: 5%;
 }
 
 .button-container {
@@ -302,9 +313,7 @@ figcaption > a {
 }
 
 .subheading {
-    margin: 10% 0;
     color: white;
-    text-align: center;
     font-size: 18px;
     text-transform: uppercase;
 }
@@ -322,11 +331,16 @@ figcaption > a {
 .section-intersect {
     padding-bottom: 0;
 }
+
+.columns:not(:last-child) {
+    margin-bottom: 6%;
+}
+
 /* --------------------------------------*/
 /* Pants vs Kosbie */
 
 #insights {
-    margin-top: -4px;
+    margin-top: -5px;
 }
 
 #laptop {
@@ -357,7 +371,6 @@ figcaption > a {
     filter: "progid:DXImageTransform.Microsoft.Dropshadow(OffX=0, OffY=-4, Color='#444')";
 
     position: relative;
-    top: 4px;
 }
 
 /*--------------------------------------*/
