@@ -1,6 +1,10 @@
 /*----------------------------------------*/
 /* General */
 
+b {
+    font-weight: bold;
+}
+
 html {
     background-color: #f1efe5;
 }
@@ -329,6 +333,10 @@ figcaption > a {
     /*overflow: hidden;*/
 }
 
+.is-red i {
+    color: white;
+}
+
 .footer.is-red a, .footer.is-red a:visited{
     color: white;
 }
@@ -340,6 +348,11 @@ figcaption > a {
 .columns:not(:last-child) {
     margin-bottom: 6%;
 }
+
+.gallery figure p {
+    color: #d3d6db;
+}
+
 
 /* --------------------------------------*/
 /* Pants vs Kosbie */

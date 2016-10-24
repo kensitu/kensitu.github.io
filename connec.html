@@ -8,8 +8,11 @@
     <link href='https://fonts.googleapis.com/css?family=Lato:400,300' rel='stylesheet' type='text/css'>
     <link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css'>
 
-    <script src='http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script> 
+    <!-- Photoswipe -->
+    <link rel="stylesheet" href="css/photoswipe.css"> 
+    <link rel="stylesheet" href="css/default-skin.css"> 
 
+    <script src='http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script> 
     <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/animsition/4.0.2/css/animsition.min.css">
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/animsition/4.0.2/js/animsition.min.js"></script>
     <script type="text/javascript" src="js/pagefade.js"></script>
@@ -74,7 +77,7 @@
                 <p class="right-reflection-text">
                     College career fairs can quickly become overcrowded and unorganized despite all the efforts of the organizers. When half a university is crammed into a gymnasium, naturally, all order is thrown out the window. Lines to speak to recruiters can get unpredictably long, making it difficult for students to efficiently plan their career fair agenda. At the same time, it is a nightmare for a recruiter to see a queue with no end in sight. 
                     <br><br>
-                    My two teammates and I choose to tackle this problem in a 24-hour timeframe for submission to HackMIT.
+                    My two teammates and I chose to tackle this problem in a <b>24-hour timeframe</b> for submission to HackMIT.
                 </p>
               </div>
             </div>
@@ -107,10 +110,44 @@
               <div class="column">
                 <p class="right-reflection-text">
                     I conducted research on similar services like help desk queues. Using that information, I created a list of essential features and organized them into user flow diagrams. Then, I drew out wireframes and digitalized prototypes in Sketch and InVision. Finally, I coded the front-end of the web-app and helped to present to the HackMIT panelists.
+                    <br><br>
                 </p>
+
+
+                <!-- <div class="gallery" itemscope itemtype="http://schema.org/ImageGallery">
+                    <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+                        <a href="images/connec/student-home.jpg" itemprop="contentUrl" data-size="1920x1085">
+                            <img src="images/connec/student-home.jpg" itemprop="thumbnail" alt="Student Home"/>
+                        </a>
+                        <p>captoasd</p>
+                    </figure>
+
+                    <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+                        <a href="images/connec/company-info.jpg" itemprop="contentUrl" data-size="1920x1085">
+                            <img src="images/connec/company-info.jpg" itemprop="thumbnail" alt="Company Info"/>
+                        </a>
+                    </figure>
+
+                    <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+                        <a href="images/connec/priority-list.jpg" itemprop="contentUrl" data-size="1920x1085">
+                            <img src="images/connec/priority-list.jpg" itemprop="thumbnail" alt="Priority List"/>
+                        </a>
+                    </figure>
+
+                    <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+                        <a href="images/connec/queue-page.jpg" itemprop="contentUrl" data-size="1920x1085">
+                            <img src="images/connec/queue-page.jpg" itemprop="thumbnail" alt="Queue"/>
+                        </a>
+                    </figure>
+                </div> -->
               </div>
             </div>
-
+            <div class="button-container has-text-centered">
+                <a class="button is-info" href="https://medium.com/@kenc2/designing-an-app-to-fix-college-career-fairs-614790f94a3a#.t847f6h9v" target="_blank">
+                    READ ABOUT THE PROCESS&nbsp
+                    <i class="fa fa-arrow-circle-right" aria-hidden="true"></i>
+                </a>
+            </div>
         </div>
     </div>
 
@@ -186,5 +223,82 @@
         </div>
     </div>
     <!-- More Works End -->
+
+
+    <!-- Photoswipe start -->
+
+    <script src="js/photoswipe.min.js"></script> 
+    <script src="js/photoswipe-ui-default.min.js"></script>
+    <script src="js/photoswipe-launcher.js"></script>
+
+
+    <!-- Root element of PhotoSwipe. Must have class pswp. -->
+    <div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
+
+        <!-- Background of PhotoSwipe. 
+             It's a separate element as animating opacity is faster than rgba(). -->
+        <div class="pswp__bg"></div>
+
+        <!-- Slides wrapper with overflow:hidden. -->
+        <div class="pswp__scroll-wrap">
+
+            <!-- Container that holds slides. 
+                PhotoSwipe keeps only 3 of them in the DOM to save memory.
+                Don't modify these 3 pswp__item elements, data is added later on. -->
+            <div class="pswp__container">
+                <div class="pswp__item"></div>
+                <div class="pswp__item"></div>
+                <div class="pswp__item"></div>
+            </div>
+
+            <!-- Default (PhotoSwipeUI_Default) interface on top of sliding area. Can be changed. -->
+            <div class="pswp__ui pswp__ui--hidden">
+
+                <div class="pswp__top-bar">
+
+                    <!--  Controls are self-explanatory. Order can be changed. -->
+
+                    <div class="pswp__counter"></div>
+
+                    <button class="pswp__button pswp__button--close" title="Close (Esc)"></button>
+
+                    <button class="pswp__button pswp__button--share" title="Share"></button>
+
+                    <button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button>
+
+                    <button class="pswp__button pswp__button--zoom" title="Zoom in/out"></button>
+
+                    <!-- Preloader demo http://codepen.io/dimsemenov/pen/yyBWoR -->
+                    <!-- element will get class pswp__preloader--active when preloader is running -->
+                    <div class="pswp__preloader">
+                        <div class="pswp__preloader__icn">
+                          <div class="pswp__preloader__cut">
+                            <div class="pswp__preloader__donut"></div>
+                          </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
+                    <div class="pswp__share-tooltip"></div> 
+                </div>
+
+                <button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)">
+                </button>
+
+                <button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)">
+                </button>
+
+                <div class="pswp__caption">
+                    <div class="pswp__caption__center"></div>
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+    <!-- Photoswipe end -->
 </body>
 </html>
