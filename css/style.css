@@ -33,23 +33,11 @@ hr {
 }
 
 hr.divider {
-    border-top: 2px solid #df4e4e;
-    margin-bottom: 8%;
+    width: 100%;
+    border-color: transparent;
     text-align: center;
 }
-hr.divider:after {
-    content: 'SELECTED WORKS';
-    display: inline-block;
-    position: relative;
-    top: -15px;
-    padding: 0 10px;
-    background: #f1efe5;
 
-    font-size: 1.2em;
-    font-weight: 300;
-    letter-spacing: 5px;
-    padding: 0 5%;
-}
 
 .section {
     background-color: transparent;
@@ -483,7 +471,7 @@ figcaption > a {
 }
 
 #about-content {
-    padding: 35% 5%;
+    padding: 10% 5% 5% 5%;
 }
 
 #about-content i {
